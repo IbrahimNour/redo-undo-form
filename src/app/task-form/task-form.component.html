@@ -1,0 +1,17 @@
+<!-- app.component.html -->
+<div class="form-container">
+  <form [formGroup]="form" (submit)="onSubmit()">
+    <div>
+      <label>First Name:</label>
+      <input type="text" formControlName="firstName" />
+    </div>
+
+    <div>
+      <label>Last Name:</label>
+      <input type="email" formControlName="lastName" />
+    </div>
+
+    <button type="button" (click)="undo()" [disabled]="!canUndo()">Undo</button>
+    <button type="submit" [disabled]="!canRedo()">Redo</button>
+  </form>
+</div>

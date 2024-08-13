@@ -1,0 +1,24 @@
+$main-color: #2e368f;
+$white-color: #ffffff;
+$off-white: #e4e4ef;
+$open-blue: #2f2c8333;
+$yellow-color: #faea26;
+$light-blue: #28abe3;
+$gray-color: #00000029;
+$open-light-blue: #c4daed;
+$green: #4bd37b;
+$main-blue: #1877f2;
+$dark-blue: #1275b1;
+$white-blue: #1da1f2;
+$dark-yellow: #e09b3d;
+$dark-red: #c74c4d;
+$move-color: #7024c4;
+$black-color: #252525;
+$warning-color: #e732321c;
+$card-color: #f4f4f9;
+$span-color: #707070;
+
+@mixin component-theme() {
+}
+
+@include component-theme();
